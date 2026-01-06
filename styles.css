@@ -251,7 +251,7 @@ body {
 .hero-subtitle {
     font-size: clamp(1.25rem, 3vw, 1.5rem);
     font-weight: 500;
-    color: var(--color-text-secondary);
+    color: #e5e5ea;
     margin-bottom: var(--spacing-md);
 }
 
@@ -288,7 +288,7 @@ body {
 
 .hero-description {
     font-size: 1.125rem;
-    color: var(--color-text-secondary);
+    color: #e5e5ea;
     line-height: 1.5;
     margin-bottom: var(--spacing-xl);
     max-width: 640px;
