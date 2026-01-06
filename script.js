@@ -119,6 +119,13 @@ const animateNumbers = () => {
             if (entry.isIntersecting && !entry.target.classList.contains('animated')) {
                 const target = entry.target;
                 const text = target.textContent;
+
+                // Skip animation for non-numeric values like "17→28%"
+                if (text.includes('→') || text.includes('->')) {
+                    target.classList.add('animated');
+                    return;
+                }
+
                 const number = parseInt(text);
                 const suffix = text.replace(/[0-9]/g, '');
 
