@@ -121,7 +121,13 @@ const animateNumbers = () => {
                 const text = target.textContent;
 
                 // Skip animation for non-numeric values like "17→28%"
-                if (text.includes('→') || text.includes('->')) {
+                if (text.includes('→') || text.includes('->') || /\d+.*→.*\d+/.test(text)) {
+                    target.classList.add('animated');
+                    return;
+                }
+
+                // Also skip if it's not a simple number format
+                if (!/^\d+[%+]*$/.test(text.trim())) {
                     target.classList.add('animated');
                     return;
                 }
