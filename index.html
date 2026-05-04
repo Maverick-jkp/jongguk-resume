@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jongguk Park</title>
-    <meta name="description" content="Regional Product Owner bridging product strategy and go-to-market execution across APAC. Seoul-based, trilingual.">
+    <meta name="description" content="Product builder and operator at the seam where mobile growth, monetization, and platform tooling actually ship. Seoul-based, trilingual KR/EN/JP, AI-native.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -18,6 +18,7 @@
             <span class="topbar-name">JP</span>
             <nav class="topbar-nav">
                 <a href="#story">Story</a>
+                <a href="#built">Built</a>
                 <a href="#work">Work</a>
                 <a href="#contact">Contact</a>
             </nav>
@@ -26,16 +27,16 @@
 
     <!-- Hero -->
     <section class="hero" id="hero">
-        <span class="hero-tag">Seoul, KR &mdash; Open to APAC roles</span>
+        <span class="hero-tag">Seoul, KR &mdash; Open to global product roles</span>
         <h1 class="hero-name">
             Jongguk<br><span class="accent">Park.</span>
         </h1>
         <p class="hero-desc">
-            Product Owner at the intersection of product strategy and
-            go-to-market execution &mdash; turning market signals into
-            shipped features, partner-ready narratives, and revenue growth
-            across Korea, Japan, and global teams. I build with AI when
-            the sprint cycle can&rsquo;t wait.
+            Product builder and operator. Seven years across mobile consumer
+            apps and B2B platform products, mostly at the seam where revenue
+            and usage actually meet. Monetization model changes, onboarding
+            flows, payment funnels, growth experiments. Trilingual KR/EN/JP,
+            AI-native. I prototype with code when the sprint cycle can&rsquo;t wait.
         </p>
         <div class="hero-links">
             <a href="#contact" class="hero-link primary">Get in touch</a>
@@ -111,96 +112,197 @@
             <div class="story-grid">
                 <div class="story-text">
                     <p class="lead">
-                        Today, I sit between product and go-to-market. Over six years,
-                        I have built a career across product management, GTM strategy,
-                        partner operations, and monetization &mdash; the thread connecting
-                        all of it is translating complex market needs into things that
-                        actually ship.
+                        At Xsolla I run regional product work for 20+ APAC enterprise
+                        gaming partners, single point of contact from pre-sales through
+                        adoption and upsell. The work I&rsquo;m closest to right now is a
+                        usability initiative on our customer dashboard. Data showed several
+                        features were underused, so I&rsquo;m running onboarding tutorial
+                        additions, UX writing simplification, flow shortening, and an
+                        interactive demo for sales enablement, all in parallel.
                     </p>
                     <p>
-                        At Xsolla, I own the regional product strategy for APAC gaming
-                        publishers, managing relationships with 20+ enterprise accounts
-                        and building the GTM infrastructure from Salesforce pipelines to
-                        AI-powered automation tools I prototyped myself.
+                        I also build. The team I&rsquo;m on doesn&rsquo;t have a dedicated
+                        regional engineer, so when something needs to ship faster than a
+                        sprint, I tend to write it myself. Over the past year I shipped
+                        four production tools and 20+ PRs as a non-engineer, working with
+                        Claude and Gemini through their APIs on Cloud Run. Project gallery
+                        is below.
                     </p>
 
-                    <div class="callout blue">
-                        <div class="callout-stat">300% YoY</div>
-                        <div class="callout-desc">
-                            Ad revenue growth at Rakuten Symphony &mdash; achieved through
-                            user segmentation, ad network negotiation (Unity Ads, AppLovin),
-                            and data-informed format placement while maintaining retention.
-                        </div>
-                    </div>
-
                     <p>
-                        I work in English, Korean, and Japanese daily &mdash; not as a
-                        &ldquo;nice to have&rdquo; but as the operational backbone of aligning
-                        HQ product teams with regional partners and customers. When something
-                        needs to be built faster than the sprint cycle allows, I build it.
-                        That&rsquo;s how I shipped a natural-language Slack bot that lets
-                        non-technical teams query BigQuery without SQL, and a Gmail-to-Jira
-                        pipeline powered by Claude API that turned unstructured CS emails
-                        into structured tickets &mdash; both built with AI, not waiting for
-                        an engineering sprint.
+                        Before Xsolla, the most consequential work I did was at Send
+                        Anywhere, where I led the transition from a near-zero-revenue
+                        model (a cheap lifetime ad-removal IAP) to an ads-and-subscription
+                        model. The negotiation with AppLovin and Unity Ads was the easy
+                        part. The interesting part was the segmentation that came first:
+                        cutting users by usage frequency, feature mix, and OS pairs to
+                        find the cross-OS large-file moments where ads would actually be
+                        tolerated. Internal pushback was about app-store ratings, so I
+                        wrote the hypothesis down upfront and instrumented churn and
+                        rating to validate. Neither moved.
                     </p>
 
                     <div class="callout orange">
-                        <div class="callout-stat">17% &rarr; 28%</div>
+                        <div class="callout-stat">300% YoY</div>
                         <div class="callout-desc">
-                            Enterprise trial-to-paid conversion lift through value-based
-                            messaging for security and compliance features.
+                            Ad revenue growth at Send Anywhere through hypothesis-driven
+                            segmentation and tiered placement strategy. Rating and churn
+                            stayed flat through the transition.
                         </div>
                     </div>
 
                     <p>
-                        My approach is shaped by operating across both structured enterprise
-                        environments (Rakuten, ProtoPie) and fast-moving gaming companies
-                        (Xsolla, Vaco/Google). I am comfortable in ambiguity, but I drive
-                        toward clarity &mdash; in requirements, ownership, and measurable outcomes.
+                        On the same product I built the web-to-app conversion campaigns
+                        that pushed users from the lower-LTV web channel into mobile, and
+                        redesigned the entire checkout flow after funnel analysis showed
+                        where users were dropping. On Rakuten Drive, I drove a full app
+                        redesign through A/B testing on the initial screen (gallery view
+                        vs the folder-tree convention users expected from drive apps),
+                        validated post-launch with NPS lift.
+                    </p>
+
+                    <p>
+                        At ProtoPie I redesigned onboarding to reduce first-session
+                        drop-off ~20%, defining activation metrics in advance and tracking
+                        cohort performance to see which intervention actually moved the
+                        needle. Trial-to-paid conversion at Rakuten Symphony went from
+                        17% to 28% through targeted account-level messaging tailored to
+                        KR/JP enterprise buyers, with discovery conducted directly in
+                        Japanese.
                     </p>
 
                     <div class="callout green">
-                        <div class="callout-stat">~20% churn reduction</div>
+                        <div class="callout-stat">17% &rarr; 28%</div>
                         <div class="callout-desc">
-                            Through guided onboarding and lifecycle activation strategy
-                            at ProtoPie, improving time-to-value for new customer cohorts.
+                            Enterprise trial-to-paid lift through value-based messaging
+                            and security/compliance positioning. ~20% drop-off reduction
+                            on activation funnel at ProtoPie through onboarding redesign
+                            and an in-app AI Q&amp;A agent.
                         </div>
                     </div>
+
+                    <p>
+                        Across all of it the same pattern: I get into the parts of a
+                        product where it&rsquo;s not totally clear what to do yet, write
+                        down what I expect to see before I act, and instrument enough to
+                        know whether I was right. Three languages, three years in Tokyo,
+                        hands-on in BigQuery, comfortable enough with code to ship internal
+                        tools end to end.
+                    </p>
                 </div>
 
                 <div class="story-sidebar">
                     <div class="sidebar-card">
                         <h4>Key numbers</h4>
                         <div class="sidebar-stat">
-                            <strong>6+</strong>
-                            <span>years in product &amp; GTM</span>
+                            <strong>7+</strong>
+                            <span>years in product</span>
                         </div>
                         <div class="sidebar-stat">
                             <strong>20+</strong>
                             <span>enterprise accounts</span>
                         </div>
                         <div class="sidebar-stat">
+                            <strong>4</strong>
+                            <span>production tools shipped</span>
+                        </div>
+                        <div class="sidebar-stat">
                             <strong>3</strong>
-                            <span>languages daily</span>
+                            <span>languages (KR / EN / JP)</span>
                         </div>
                     </div>
 
                     <div class="sidebar-card">
                         <h4>Tools &amp; stack</h4>
                         <div class="sidebar-tools">
-                            <span class="tool-tag">Salesforce</span>
-                            <span class="tool-tag">Jira</span>
-                            <span class="tool-tag">GA4</span>
                             <span class="tool-tag">BigQuery</span>
                             <span class="tool-tag">SQL</span>
+                            <span class="tool-tag">GA4</span>
+                            <span class="tool-tag">Salesforce</span>
+                            <span class="tool-tag">Jira</span>
+                            <span class="tool-tag">Linear</span>
+                            <span class="tool-tag">Cloud Run</span>
+                            <span class="tool-tag">Claude API</span>
+                            <span class="tool-tag">Gemini API</span>
+                            <span class="tool-tag">REST APIs</span>
                             <span class="tool-tag">Python</span>
-                            <span class="tool-tag">Claude</span>
                             <span class="tool-tag">Figma</span>
-                            <span class="tool-tag">Sensor Tower</span>
-                            <span class="tool-tag">Confluence</span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Built -->
+    <section class="built" id="built">
+        <div class="built-inner">
+            <div class="section-label purple">Built</div>
+            <p class="built-intro">
+                Four production tools shipped at Xsolla as a non-engineer, 20+ PRs total.
+                All built with LLM APIs on Cloud Run, in evenings and slack moments between
+                regional product work.
+            </p>
+            <div class="built-grid">
+                <div class="built-card">
+                    <div class="built-card-name"><span class="accent-dot blue"></span>XAM &mdash; Account Dashboard</div>
+                    <p class="built-card-desc">
+                        Single-pane account intelligence for APAC BD/CSM/IM teams. Pulls
+                        Salesforce, BigQuery, Jira, and Neo4j into one view. Profile,
+                        ownership, contacts, opportunities, health scores, payment coverage.
+                    </p>
+                    <div class="built-card-tags">
+                        <span class="built-card-tag">Cloud Run</span>
+                        <span class="built-card-tag">BigQuery</span>
+                        <span class="built-card-tag">Salesforce API</span>
+                        <span class="built-card-tag">Neo4j</span>
+                    </div>
+                    <div class="built-card-impact">Used daily across the APAC team.</div>
+                </div>
+
+                <div class="built-card">
+                    <div class="built-card-name"><span class="accent-dot orange"></span>Slide Creator</div>
+                    <p class="built-card-desc">
+                        Auto-generates Xsolla-branded pitch decks from short prompts.
+                        Uses Anthropic API to plan layout, Google Slides API to render.
+                        Adopted by APAC for partner pitches and weekly updates.
+                    </p>
+                    <div class="built-card-tags">
+                        <span class="built-card-tag">Anthropic API</span>
+                        <span class="built-card-tag">Google Slides API</span>
+                        <span class="built-card-tag">Cloud Run</span>
+                    </div>
+                    <div class="built-card-impact">Live at prototype.xsolla.dev/mini-apps/slide-creator.</div>
+                </div>
+
+                <div class="built-card">
+                    <div class="built-card-name"><span class="accent-dot green"></span>Release Tracker</div>
+                    <p class="built-card-desc">
+                        Mini-site that aggregates monetization product release notes,
+                        versions, and bug fixes into one feed. Solves the cross-team pain
+                        of tracking product updates scattered across Slack channels.
+                    </p>
+                    <div class="built-card-tags">
+                        <span class="built-card-tag">Neo4j</span>
+                        <span class="built-card-tag">React</span>
+                        <span class="built-card-tag">Cloud Run</span>
+                    </div>
+                    <div class="built-card-impact">Built with no backend &mdash; frontend queries Neo4j directly.</div>
+                </div>
+
+                <div class="built-card">
+                    <div class="built-card-name"><span class="accent-dot purple"></span>Law-Friendly</div>
+                    <p class="built-card-desc">
+                        Korean-language legal AI assistant for colleagues. Covers 1,600+
+                        Korean laws, 10,000+ administrative regulations, and game-industry
+                        law via a custom MCP server. Korean chat UI with multi-turn context.
+                    </p>
+                    <div class="built-card-tags">
+                        <span class="built-card-tag">MCP</span>
+                        <span class="built-card-tag">Anthropic API</span>
+                        <span class="built-card-tag">Cloud Run</span>
+                    </div>
+                    <div class="built-card-impact">Self-hosted internally after third-party reliability hit a wall.</div>
                 </div>
             </div>
         </div>
@@ -217,13 +319,28 @@
                     <div class="role-location">Seoul</div>
                 </div>
                 <div class="role-right">
-                    <h3 class="role-title">Regional Product Owner</h3>
+                    <h3 class="role-title">Regional Product Expert, APAC Solutions &amp; Product Strategy</h3>
                     <p class="role-company">Xsolla</p>
                     <ul class="role-bullets">
-                        <li>Own APAC product strategy for 20+ enterprise gaming publishers, defining local value propositions and driving adoption through Salesforce-managed pipeline</li>
-                        <li>Lead pre-sales engagements and partner events (G-Star), translating regional market signals into global product roadmap input</li>
-                        <li>Built AI-powered tools (Gmail-to-Jira automation, natural-language Slack data bot) that eliminated manual workflows across GTM teams</li>
-                        <li>Standardized sales pipeline structure and reporting across regions, improving forecast clarity for Sales, Product, and CS</li>
+                        <li>Single point of contact for 20+ APAC enterprise gaming partners across KR/JP, from pre-sales through onboarding, payment/storefront/analytics module adoption, and upsell</li>
+                        <li>Leading customer dashboard usability initiative after data and feedback showed several features were underused: onboarding tutorial additions, UX writing simplification, flow shortening, and an interactive demo for sales enablement, all in parallel</li>
+                        <li>Shipped 4 production tools and 20+ PRs as a non-engineer using Claude/Gemini APIs on Cloud Run (account dashboard, slide generator, release tracker, Korean legal AI). See Built section above.</li>
+                        <li>Own product requirements end to end: scoping with internal users, specs, BigQuery directly, integration coordination with platform engineering, QA</li>
+                        <li>Standardized APAC sales pipeline definitions and milestone criteria across Sales, Product, CS, and Engineering, improving forecast accuracy</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article class="role-card">
+                <div class="role-left">
+                    <div class="role-date"><span class="role-color-dot"></span> 2025 &ndash; Present</div>
+                    <div class="role-location">Remote</div>
+                </div>
+                <div class="role-right">
+                    <h3 class="role-title">Product Advisor (Part-time)</h3>
+                    <p class="role-company">Ziva</p>
+                    <ul class="role-bullets">
+                        <li>Advising on product direction, GTM, and Korean market user activation for an early-stage AI game development tool on the Godot engine</li>
                     </ul>
                 </div>
             </article>
@@ -237,9 +354,9 @@
                     <h3 class="role-title">Cloud Product Owner</h3>
                     <p class="role-company">ProtoPie</p>
                     <ul class="role-bullets">
-                        <li>Led ISO 27001/27017 certification &mdash; designed simplified RBAC, audit logs, and permission models balancing compliance with usability</li>
-                        <li>Drove lifecycle activation strategy: guided onboarding reduced early churn by ~20%, content alignment lowered support ticket volume by 12%</li>
-                        <li>Translated compliance and user research into experience-focused roadmap priorities adopted by design and engineering</li>
+                        <li>Reduced first-session drop-off ~20% through onboarding redesign and an in-app AI Q&amp;A agent. Defined activation metrics in advance and tracked cohort performance to validate which intervention actually moved time-to-value</li>
+                        <li>Cut support ticket volume ~12% by aligning UI copy, Help Center, and onboarding messaging. Configuration time dropped 30% after enterprise admin flow rebuild</li>
+                        <li>Led ISO 27001/27017 certification: designed RBAC structures, audit logs, and permission models balancing compliance with usability for security-sensitive enterprise customers</li>
                     </ul>
                 </div>
             </article>
@@ -251,12 +368,14 @@
                 </div>
                 <div class="role-right">
                     <h3 class="role-title">Product Manager</h3>
-                    <p class="role-company">Rakuten Symphony</p>
+                    <p class="role-company">Rakuten Symphony &mdash; Send Anywhere team, then Rakuten Drive team</p>
                     <ul class="role-bullets">
-                        <li>Led campaign optimization for Send Anywhere &mdash; ad revenue grew ~300% YoY through user segmentation, ad network negotiation, and GA4 behavioral analysis</li>
-                        <li>Developed value-based messaging for enterprise security/compliance, lifting trial-to-paid conversion from 17% to 28%</li>
-                        <li>Conducted account-level customer research across Korea and Japan, directly influencing feature prioritization and localized UX</li>
-                        <li>Redesigned enterprise RBAC and admin controls, reducing configuration time by 30%</li>
+                        <li>Reworked Send Anywhere&rsquo;s business model from a cheap lifetime ad-removal IAP to an ads-and-subscription model. Segmented users by usage frequency, feature mix, and OS pairs to find the moments where users would tolerate ads</li>
+                        <li>Grew ad revenue ~300% YoY through tiered placements (rewarded video, interstitial, banner) negotiated with AppLovin and Unity Ads. Pushed strategy through despite rating-drop concerns by treating utility-app vs daily-app behavior as a measurable hypothesis. Both rating and churn stayed flat through transition</li>
+                        <li>Launched a monthly subscription product on top of the existing utility app to address heavy users who didn&rsquo;t want ads, replacing the lifetime IAP. Validated post-launch with churn and rating instrumentation</li>
+                        <li>Built web-to-app conversion campaigns on the multi-platform service to push lower-LTV web users into the higher-LTV mobile channel. Redesigned the entire checkout flow based on funnel drop-off analysis</li>
+                        <li>Drove Rakuten Drive&rsquo;s app redesign through A/B testing on initial screen experience (gallery view vs folder-tree convention users expected from drive apps), validated post-launch with NPS lift</li>
+                        <li>Moved enterprise trial-to-paid conversion from 17% to 28% through targeted account-level messaging tailored to KR/JP enterprise buyers, with security and compliance positioning. Ran customer discovery directly in Japanese</li>
                     </ul>
                 </div>
             </article>
